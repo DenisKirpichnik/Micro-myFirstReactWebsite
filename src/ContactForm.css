@@ -1,0 +1,88 @@
+.contactForm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.contractForm__headerH1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.contractForm__headerH3 {
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactForm__formInputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+}
+
+.form {
+  width: 80% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contactForm__textField {
+  width: 32% !important;
+  margin-right: 15px !important;
+}
+.form__submitBtn {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  padding: 5px;
+  width: 300px;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form__submitBtn:hover {
+  background-color: #e4aa17;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .contactForm__formInnerWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm__textField {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+  .contact__form {
+    width: 100%;
+  }
+  .contactForm__textField {
+    margin-bottom: 5px !important;
+    margin-right: 0px !important;
+    width: 100% !important;
+  }
+  .contractForm__headerH3 {
+    font-size: 16px !important;
+  }
+}

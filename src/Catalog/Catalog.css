@@ -1,0 +1,55 @@
+.catalog__container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 7px;
+}
+
+.catalog__products {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home__row {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.bannerC {
+  height: 400px;
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -250px;
+}
+
+.catalog__modals {
+  display: block;
+}
+
+.catalog__modals__hide {
+  display: none;
+}
+
+.catalog__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .catalog__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .catalog {
+    width: 95%;
+    margin-right: 10px;
+  }
+}

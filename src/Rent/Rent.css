@@ -1,0 +1,33 @@
+.rent__container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 7px;
+}
+
+.rented__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.rent__text {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rent__header {
+  align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .rented__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,146 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 12px;
+  background-color: rgb(19, 25, 33);
+  height: 60px;
+}
+/* 1.Logo */
+.header__logo {
+  flex: 0.05;
+  align-self: flex-start;
+}
+
+.logo {
+  margin-top: 2px;
+  width: 57px;
+  height: 56px;
+  border-radius: 55px;
+}
+/* .location sign */
+.contacts__location {
+  display: flex;
+  margin-top: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.contacts__locationText {
+}
+
+/* 3. links */
+.contacts__location:hover {
+  color: rgb(243, 163, 16);
+  transform: scale(1.02);
+}
+
+.header__links {
+  flex: 0.8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.header__link:hover {
+  color: rgb(243, 163, 16);
+  transform: scale(1.05);
+  outline: 1px solid white;
+}
+/* Callback button */
+.callback__button {
+  flex: 0.1;
+  color: white;
+  font-size: 15px;
+  margin-top: 13px;
+  background-color: rgb(19, 25, 33);
+  border-radius: 42px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  border: 2px solid white;
+  white-space: nowrap;
+}
+
+.callback__button:hover {
+  color: rgb(243, 163, 16);
+  transform: scale(1.05);
+  border: 1px solid rgb(243, 163, 16);
+}
+/* 5.Contacts */
+.header__contacts {
+  align-self: flex-end;
+  flex: 0.05;
+  display: flex;
+  color: white;
+  margin-left: auto;
+}
+
+.contact__icon {
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.vk {
+  margin-top: 6px;
+  width: 33px;
+  height: 33px;
+  color: white;
+}
+
+.ins {
+  margin-top: 12px;
+  margin-bottom: -5px;
+  color: white;
+  margin-bottom: 14px;
+  font-size: 23px !important;
+}
+
+.active {
+  color: rgb(243, 163, 16);
+  transform: scale(1.05);
+}
+
+.header__callback {
+  color: white;
+}
+
+.contacts__link1 {
+  margin-top: 15px;
+}
+.contacts__link2 {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts__location {
+    display: none;
+  }
+
+  .header__links {
+    display: none;
+  }
+  .header__contacts {
+    display: none;
+  }
+  .header__logo {
+    display: flex;
+    margin-left: -35px;
+  }
+  .header__logohidden {
+    display: none;
+    margin-left: 100px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}

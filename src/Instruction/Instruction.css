@@ -1,0 +1,59 @@
+.instruction__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.reactplayer__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 70vh;
+  padding: 20px;
+}
+
+.instruction__written {
+  margin-top: -70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: rgb(70, 68, 68);
+}
+
+.instruction__header {
+  width: 20%;
+  padding: 5px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instruction__text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .instruction__container {
+    width: 100%;
+  }
+  .reactplayer__container {
+    width: 95%;
+    height: 50vh;
+  }
+  .instruction__text {
+    width: 90%;
+  }
+  .instruction__header {
+    margin-left: 110px;
+  }
+}

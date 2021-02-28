@@ -1,0 +1,118 @@
+.modal {
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  display: flex;
+  height: 90vh;
+  width: 90%;
+  z-index: 1000;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  outline: 2px solid black;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+}
+
+.modal__innerContainer {
+  margin-top: 5%;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal__image {
+  width: 100%;
+  height: 65%;
+}
+
+.modal__content__left {
+  margin-right: 20px;
+  padding: 10px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.modal__content__right {
+  padding: 10px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.modal_closeBtn {
+  width: 150px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #f0c14b;
+  border: none;
+  cursor: pointer;
+}
+
+.modal_closeBtn:hover {
+  background-color: #ecb018;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 2px 1px rgba(255, 174, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .modal__content__left {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+    width: 80%;
+    height: 200px;
+  }
+  .modal__content__right {
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .modal__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .modal__image {
+    width: 100%;
+    height: 100%;
+  }
+  .modal {
+    width: 100%;
+    height: 100vh;
+  }
+  .modal__innerContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .modal__firstText {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal__secondText {
+    display: none;
+  }
+  .modal__description {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal__content__left {
+    width: 55%;
+  }
+  .modal_closeBtn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal__price {
+    margin-top: -6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
