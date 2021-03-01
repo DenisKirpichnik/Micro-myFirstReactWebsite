@@ -14,9 +14,9 @@
 .reactplayer__container {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   height: 70vh;
-  padding: 20px;
+  padding: 5px;
 }
 
 .instruction__written {
@@ -47,7 +47,7 @@
     width: 100%;
   }
   .reactplayer__container {
-    width: 95%;
+    width: 90%;
     height: 50vh;
   }
   .instruction__text {
