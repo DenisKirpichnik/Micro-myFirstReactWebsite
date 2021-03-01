@@ -2,13 +2,13 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAe1G8O5mq9IS9daX5W6sYWxnwFPwWzMa0",
-  authDomain: "micro-8547d.firebaseapp.com",
-  projectId: "micro-8547d",
-  storageBucket: "micro-8547d.appspot.com",
-  messagingSenderId: "716456477143",
-  appId: "1:716456477143:web:9913650ce2d68eca778b92",
-  measurementId: "G-557TZH319C",
+  apiKey: "AIzaSyBM5L-wL0WmR9H4ePCRSnliujz4yO-IwmQ",
+  authDomain: "micro-dcd8c.firebaseapp.com",
+  projectId: "micro-dcd8c",
+  storageBucket: "micro-dcd8c.appspot.com",
+  messagingSenderId: "859418518107",
+  appId: "1:859418518107:web:b89665ac1440608a0f957e",
+  measurementId: "G-DM18GPGWVK",
 };
 
 firebase.initializeApp(firebaseConfig);
